@@ -15,7 +15,7 @@ public class HomeworkMain02 {
 			System.out.print("0~99 사이의 숫자를 입력해주세요 : ");
 			
 			 ar[i] = sc.nextInt(); 
-			 if(ar[i] >= 99 || ar[i] <= 0) {
+			 if(ar[i] > 99 || ar[i] < 0) {
 				 System.out.println("다시 입력해주세요");
 				 i --;
 			 }
