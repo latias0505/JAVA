@@ -17,7 +17,7 @@ public class methodMain01 {
 		int cnt = 10;
 		int s = prnStar(cnt, "abc"); //()안에 입력값 또는 함수를 넣으면 피호출자 메소드에게 해당 입력값 또는 함수값을 넘겨줌 (여러개도 가능)
 		System.out.println("자리수 합 : " + s);
-		System.out.println("Helloa");
+		System.out.println("Hello");
 		prnStar(5, "hi"); //이전에 피호출자에게 넘겨준 값 위에 새 값을 덮어씌움
 		System.out.println("자리수 합 : " + s);
 		System.out.println("Hi");
