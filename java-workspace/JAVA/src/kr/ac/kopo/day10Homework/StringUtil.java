@@ -36,6 +36,12 @@ public class StringUtil {
 		}
 		return new String(chars);
 	}
+	
+	//2023.03.21
+	
+	//1
+	
+	
 		
 	
 
