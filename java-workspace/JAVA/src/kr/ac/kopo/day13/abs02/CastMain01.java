@@ -10,15 +10,31 @@ public class CastMain01 {
 		c.info();
 	}
 	
-	public static void print(Parent c) {
-		c.info();
-	}
+	public static void print(Parent p) {
+		
+		if(p instanceof Child01) {
+			Child01 c01 = (Child01)p;
+			c01.sleep();
+			c01.study();
+		} else if(p instanceof Child02) {
+			Child02 c02 = (Child02)p;
+			c02.game();
+			c02.sing();
+		}
+		p.info();
+	
+//		System.out.println("p instanceof Child01 : " + (p instanceof Child01));
+//		System.out.println("p instanceof Child02 : " + (p instanceof Child02));
+//		System.out.println("p instanceof Parent : " + (p instanceof Parent));
+		
+//		p.info();
+		}
 	
 	public static void main(String[] args) {
 		
-		print(new Child01());
-		print(new Child02());
-		print(new Parent());
+//		print(new Child01(), 1);
+//		print(new Child02(), 2);
+//		print(new Parent(), 3);
 		
 //		Child01 c01 = new Child01();
 //		c01.info();
