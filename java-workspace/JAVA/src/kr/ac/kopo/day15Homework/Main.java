@@ -19,7 +19,7 @@ public class Main {
 		int num = 0;
 		int num4 = 1;
 		int num5 = 1;
-		int num7 = 0;
+		int num7 = 2023;
 		
 		for(int i = 0; i <= num; i++) {
 			
