@@ -1,4 +1,4 @@
-package kr.ac.kopo.day16HomeworkReview;
+package kr.ac.kopo.day17;
 
 /*
 	게임수를 입력 : 10
@@ -9,12 +9,12 @@ package kr.ac.kopo.day16HomeworkReview;
 	게임10 :[X,X,X,X,X,X]
 */
 
-public class LottoMain6 {
+public class LottoMain3 {
 
 	public static void main(String[] args) {
 
 	
-		LottoView4 lotto = new LottoView4();
+		LottoView3 lotto = new LottoView3();
 		lotto.start();
 	
 	}
